@@ -1,0 +1,5 @@
+Start,State,Input,Next State,Accept
+Yes,q0,0,q1,No
+No,q1,0,q2,No
+No,q2,1,q3,Yes
+No,q3,0,q2,No

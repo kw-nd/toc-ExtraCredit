@@ -1,0 +1,10 @@
+Start,State,Input,Next State,Accept
+Yes,S0,0,S1,No
+No,S0,1,S1,No
+No,S1,0,S2,No
+No,S1,1,S2,No
+No,S2,0,S3,Yes
+No,S2,1,S3,Yes
+No,S3,0,S3,Yes
+No,S3,1,S3,Yes
+No,S1,0,S3,No
